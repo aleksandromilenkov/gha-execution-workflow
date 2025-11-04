@@ -8,7 +8,7 @@ jobs:
         node-versions: [12, 16, 18]
         operating-systems: [ubuntu-latest, windows-latest]
       include:
-        - node-versions: 18
+        - node-versions: 17
           operating-systems: ubuntu-latest
       exclude:
         - node-versions: 12
